@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 11 17:27:01 IST 2019</td>
+<td>Started on:</td><td>Fri Apr 12 17:13:12 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10601 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18284 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,54 +75,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.learnautomation.testcases.LoginTestCRM.setup()'><b>setup</b><br>Test class: com.learnautomation.testcases.LoginTestCRM</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: newSession
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;ETVL114568&apos;, ip: &apos;10.110.60.179&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_172&apos;
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: stack backtrace:
-   0:           0x489f6f - &lt;no info&gt;
-   1:           0x48ad59 - &lt;no info&gt;
-   2:           0x43a15d - &lt;no info&gt;
-   3:           0x4474c9 - &lt;no info&gt;
-   4:           0x445208 - &lt;no info&gt;
-   5:           0x41ddb1 - &lt;no info&gt;
-   6:           0x4091c7 - &lt;no info&gt;
-   7:           0x6bc939 - &lt;no info&gt;
-   8:           0x415a19 - &lt;no info&gt;
-   9:           0x6b6e43 - &lt;no info&gt;
-  10:     0x7fff839413d2 - BaseThreadInitThunk
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
-	at com.learnautomation.utility.BrowserFactory.startapplication(BrowserFactory.java:21)
-	at com.learnautomation.pages.BassClass.setup(BassClass.java:31)
+<td title='com.learnautomation.testcases.LoginTestCRM.setup()'><b>setup</b><br>Test class: com.learnautomation.testcases.LoginTestCRM<br/>
+<a href="#Output-793331940" onClick='toggleBox("Output-793331940", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-793331940" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-793331940">
+Trying to start browser and getting application ready<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.learnautomation.pages.BassClass.setup(BassClass.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:521)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
@@ -143,54 +109,13 @@ remote stacktrace: stack backtrace:
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1622458036", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1622458036'><pre>org.openqa.selenium.WebDriverException: newSession
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;ETVL114568&apos;, ip: &apos;10.110.60.179&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_172&apos;
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: stack backtrace:
-   0:           0x489f6f - &lt;no info&gt;
-   1:           0x48ad59 - &lt;no info&gt;
-   2:           0x43a15d - &lt;no info&gt;
-   3:           0x4474c9 - &lt;no info&gt;
-   4:           0x445208 - &lt;no info&gt;
-   5:           0x41ddb1 - &lt;no info&gt;
-   6:           0x4091c7 - &lt;no info&gt;
-   7:           0x6bc939 - &lt;no info&gt;
-   8:           0x415a19 - &lt;no info&gt;
-   9:           0x6b6e43 - &lt;no info&gt;
-  10:     0x7fff839413d2 - BaseThreadInitThunk
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
-	at com.learnautomation.utility.BrowserFactory.startapplication(BrowserFactory.java:21)
-	at com.learnautomation.pages.BassClass.setup(BassClass.java:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace793331940", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace793331940'><pre>java.lang.NullPointerException
+	at com.learnautomation.pages.BassClass.setup(BassClass.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:521)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
@@ -213,7 +138,7 @@ remote stacktrace: stack backtrace:
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 </pre></div></td>
 <td>0</td>
-<td>com.learnautomation.testcases.LoginTestCRM@4563e9ab</td></tr>
+<td>com.learnautomation.testcases.LoginTestCRM@1fbc7afb</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -223,10 +148,15 @@ remote stacktrace: stack backtrace:
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.learnautomation.testcases.LoginTestCRM.teardownmethod()'><b>teardownmethod</b><br>Test class: com.learnautomation.testcases.LoginTestCRM</td>
+<td></td>
+<td>0</td>
+<td>com.learnautomation.testcases.LoginTestCRM@1fbc7afb</td></tr>
+<tr>
 <td title='com.learnautomation.testcases.LoginTestCRM.teardown()'><b>teardown</b><br>Test class: com.learnautomation.testcases.LoginTestCRM</td>
 <td></td>
 <td>0</td>
-<td>com.learnautomation.testcases.LoginTestCRM@4563e9ab</td></tr>
+<td>com.learnautomation.testcases.LoginTestCRM@1fbc7afb</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -239,7 +169,7 @@ remote stacktrace: stack backtrace:
 <td title='com.learnautomation.testcases.LoginTestCRM.loginApp()'><b>loginApp</b><br>Test class: com.learnautomation.testcases.LoginTestCRM</td>
 <td></td>
 <td>0</td>
-<td>com.learnautomation.testcases.LoginTestCRM@4563e9ab</td></tr>
+<td>com.learnautomation.testcases.LoginTestCRM@1fbc7afb</td></tr>
 </table><p>
 </body>
 </html>
